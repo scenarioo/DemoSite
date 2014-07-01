@@ -1,4 +1,13 @@
-## The New Broadleaf Commerce Demo Site
+## A Demo Site Project to demonstrate using Scenarioo to test and document a webapplication
+
+This demo is based on the opensource ecommerce platform "broad leaf commerce" and their demo project
+See http://www.broadleafcommerce.org for more information about their great ecommerce platform.
+
+This demo is based on their demo forked from 
+https://github.com/BroadleafCommerce/DemoSite
+
+
+### The Broadleaf Commerce Demo Site
 
 This Maven project is meant to be used as a solid started project for any [Broadleaf Commerce](http://www.broadleafcommerce.org) application. It has many sensible defaults set up along with examples of how a fully functioning eCommerce site based on Broadleaf might work.
 
