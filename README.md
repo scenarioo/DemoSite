@@ -11,26 +11,42 @@ https://github.com/BroadleafCommerce/DemoSite
 This section explains how the setup for the demo project is done.
 See also [Broadleaf's Getting Started Guide](http://docs.broadleafcommerce.org/current/Getting-Started.html)http://www.broadleafcommerce.com/docs/core/current/getting-started for more detailed informations on hos to setup the demo project in eclipse.
 
+
 1. I had to install the newest maven version: sudo apt-get install maven
+
         > sudo apt-get install maven
+
 	> export PATH=/usr/share/maven/bin:$PATH
 
+
 2. I had to upgrade the m2e maven plugin for eclipse
+
 	using update site for luna 
+
 	http://download.eclipse.org/releases/luna/
 
+
 3. I had to run the maven build from command line to download all needed dependencies:
+
 	in directory ~/Code/scenarioo-broadleaf-demo/DemoSite
+
         > mvn install
 
+
 4. Setup the maven path for demo's build.xml:
+
 	in project ecommerce-website's build.properties
+
 	maven.home=/usr/share/maven
+
 
 5. Running the eCommerce DemoSite web application (HeatClinic) is done by running following ant commands from build scripts inside the projects:
 
 	sub-project 'site' >> jetty-demo
+
 	sub-project 'admin' >> jetty-demo
+
+(Startup might take some time ... be patient ...)
 
 
 ### The Broadleaf Commerce Demo Site
