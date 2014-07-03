@@ -1,4 +1,4 @@
-## A Demo Site Project to demonstrate using Scenarioo to test and document a webapplication
+## Demo Webapplication for Demonstration how to use Scenarioo to test and document it
 
 This demo is based on the opensource ecommerce platform "broad leaf commerce" and their demo project
 See http://www.broadleafcommerce.org for more information about their great ecommerce platform.
