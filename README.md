@@ -46,7 +46,7 @@ See also [Broadleaf's Getting Started Guide](http://docs.broadleafcommerce.org/c
 
 		sub-project 'admin' >> jetty-demo
 
-(Startup might take some time ... be patient ...)
+	(Startup might take some time ... be patient ...)
 
 
 ### The Broadleaf Commerce Demo Site
