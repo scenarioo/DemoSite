@@ -16,7 +16,7 @@ See also [Broadleaf's Getting Started Guide](http://docs.broadleafcommerce.org/c
 
         > sudo apt-get install maven
 
-	> export PATH=/usr/share/maven/bin:$PATH
+		> export PATH=/usr/share/maven/bin:$PATH
 
 
 2. I had to upgrade the m2e maven plugin for eclipse
@@ -37,14 +37,14 @@ See also [Broadleaf's Getting Started Guide](http://docs.broadleafcommerce.org/c
 
 	in project ecommerce-website's build.properties
 
-	maven.home=/usr/share/maven
+		maven.home=/usr/share/maven
 
 
 5. Running the eCommerce DemoSite web application (HeatClinic) is done by running following ant commands from build scripts inside the projects:
 
-	sub-project 'site' >> jetty-demo
+		sub-project 'site' >> jetty-demo
 
-	sub-project 'admin' >> jetty-demo
+		sub-project 'admin' >> jetty-demo
 
 (Startup might take some time ... be patient ...)
 
